@@ -8,11 +8,15 @@ const Header = () => {
           <img src={avaYulia} alt='Nesterenko Yulia' />
         </div>
         <div className={styles.text}>
-          <h2>Nesterenko Yulia</h2>
+          <h2 className={[styles.header_title_name]}>Nesterenko Yulia</h2>
           <div className={styles.blur}>
             <h1>“easy perfect hairstyle”</h1>
-            <p>Актуально для майстрів, які працюють з волоссям</p>
-            <a href='#'>Придбати курс</a>
+            <p className={[styles.header_text]}>
+              Актуально для майстрів, які працюють з волоссям
+            </p>
+            <a className={[styles.header_buttom]} href='#'>
+              Придбати курс
+            </a>
           </div>
         </div>
       </header>
