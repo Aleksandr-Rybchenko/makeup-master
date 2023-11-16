@@ -14,7 +14,10 @@ const Header = () => {
             <p className={[styles.header_text]}>
               Актуально для майстрів, які працюють з волоссям
             </p>
-            <a className={[styles.header_buttom]} href='#'>
+            <a
+              className={[styles.header_buttom]}
+              href='https://www.img2go.com/ru/result#j=c020ceda-ef15-431f-a98c-c36b1747a716'
+            >
               Придбати курс
             </a>
           </div>

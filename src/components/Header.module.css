@@ -67,11 +67,10 @@ h1 {
   padding: 0.5rem 1rem;
   justify-content: center;
   align-items: center;
-  transition: transform 0.5s;
+  transition: 0.5s;
 }
 .header_buttom:hover {
   background-color: #e1d0b9;
-  transition: 0.9s;
 }
 /* adaptive */
 @media (min-width: 375px) and (max-width: 768px) {
