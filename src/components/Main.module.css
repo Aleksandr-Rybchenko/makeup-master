@@ -40,7 +40,7 @@
   justify-content: center;
   align-items: center;
   gap: 0.25rem;
-  transition: transform 0.5s;
+  transition: 0.5s;
   border: 2px solid #cfc0ab;
   margin-right: 24px;
 }
@@ -57,7 +57,7 @@
   justify-content: center;
   align-items: center;
   gap: 0.25rem;
-  transition: transform 0.5s;
+  transition: 0 5s;
 }
 .main_btn1:hover {
   border: 2px solid #b8aa96;
@@ -87,5 +87,130 @@
   .main_btn2 {
     width: 50vw;
     font-size: 3.5vw;
+  }
+}
+/* about-#2 */
+.container_about_two_first {
+  background: linear-gradient(
+    286deg,
+    #cfc0ab 3.52%,
+    rgba(207, 192, 171, 0) 91.79%
+  );
+  width: 100%;
+  padding-bottom: 64px;
+}
+.container_about_two {
+  padding: 0 16px;
+  padding-top: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 62px;
+  align-items: center;
+}
+.container_about_two2 {
+  margin-top: 60px;
+  padding: 0 16px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.section_about_one {
+  max-width: 664px;
+}
+.title_about_one {
+  font-size: 32px;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+}
+.about_text {
+  font-family: Poiret One;
+  font-size: 24px;
+  border-left: solid 4px #b8aa96;
+  padding-left: 4px;
+  margin-top: 12px;
+}
+
+.about_img {
+  background-color: #1b1818;
+  width: 373px;
+  height: 578px;
+}
+.title_about_two1 {
+  padding: 0;
+  margin: 0;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.about_text2 {
+  font-family: Poiret One;
+  font-size: 24px;
+  border-left: solid 4px #b8aa96;
+  padding-left: 4px;
+  margin-top: 23.5px;
+}
+.title_about_one1 {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+.main_btn3 {
+  cursor: pointer;
+  font-family: Cormorant Garamond;
+  font-size: 1.12rem;
+  color: #1b1818;
+  border-radius: 0.25rem;
+  background: #cfc0ab;
+  display: flex;
+  width: 17.1rem;
+  padding: 0.5rem 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  transition: 0 5s;
+  margin-top: 32px;
+}
+.main_btn3:hover {
+  cursor: pointer;
+  background-color: #e1d0b9;
+  transition: 0.9s;
+}
+.main_btn4 {
+  display: none;
+}
+@media (min-width: 375px) and (max-width: 768px) {
+  .container_about_two_first {
+    padding-bottom: 22px;
+  }
+  .main_btn3 {
+    display: none;
+  }
+  .title_about_one {
+    text-align: center;
+  }
+  .main_btn4 {
+    cursor: pointer;
+    margin: 0 auto;
+
+    font-family: Cormorant Garamond;
+
+    color: #1b1818;
+    border-radius: 0.25rem;
+    background: #cfc0ab;
+    display: flex;
+    text-decoration: none;
+
+    padding: 0.5rem 1rem;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s;
+
+    margin-top: 8vw;
+    font-size: 5vw;
+    width: 70vw;
   }
 }

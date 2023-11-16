@@ -1,4 +1,6 @@
 import styles from "./Main.module.css"
+import firstGif from "./../video/IMG_6865.gif"
+import secondGif from "./../video/IMG_6866.gif"
 const Main = () => {
   return (
     <main className={styles.main}>
@@ -31,6 +33,76 @@ const Main = () => {
             Придбати курс{" "}
           </a>
         </div>
+      </div>
+      <div className={[styles.container_about_two_first]}>
+        <div className={[styles.container_about_two]}>
+          <div className={[styles.section_about_one]}>
+            <h3 className={[styles.title_about_one]}>
+              Ці проблеми знайомі 90% майстрам
+            </h3>
+            <p className={[styles.about_text]}>
+              Укладання не тримаються довше 30 хвилин, і об’єм падає, як тільки
+              клієнт встає з крісла.
+            </p>
+            <p className={[styles.about_text]}>
+              Не знаю як підбирати стайлінгові засоби і наносити їх так, щоб
+              укладання залишалося рухливим і чистим.
+            </p>
+            <p className={[styles.about_text]}>
+              Не знаю, як правильно працювати гарячими інструментами: через це
+              укладання виходить нестійким.
+            </p>
+            <p className={[styles.about_text]}>
+              Доводиться наносити багато лаку, щоб зберегти стійкість укладання.
+              Через це волосся виглядає штучно.
+            </p>
+            <p className={[styles.about_text]}>
+              Не знаю, як правильно стилізувати укладання та зробити його
+              модним, щоб не відставати від трендів.
+            </p>
+          </div>
+          <div className={[styles.about_img]}>
+            <img src={firstGif} alt='Ваш GIF' />
+          </div>
+        </div>
+        {/* revers */}
+        <h3 className={[styles.title_about_one1]}>
+          Навчитися ідеальним укладанням можна за 5 простих кроків:
+        </h3>
+
+        <div className={[styles.container_about_two2]}>
+          <div className={[styles.about_img]}>
+            <img src={secondGif} alt='Ваш GIF' />
+          </div>
+
+          <div className={[styles.section_about_one]}>
+            <p className={[styles.about_text2]}>
+              Вчимося створювати правильну форму укладання, що підходить під
+              форму голови та анатомію обличчя.
+            </p>
+            <p className={[styles.about_text2]}>
+              Вивчаємо техніки досягнення стійкості укладання.
+            </p>
+            <p className={[styles.about_text2]}>
+              Заглиблюємося в стайлінгові продукти та вчимося їх правильно
+              наносити, щоб укладання виходило об'ємним.
+            </p>
+            <p className={[styles.about_text2]}>
+              Вчимося правильно сушити волосся, нагрівати пасма і працювати з
+              чубчиком.
+            </p>
+            <p className={[styles.about_text2]}>
+              Стилізуємо і фінішуємо укладання, а також фіксуємо її і робимо
+              волосся рухливим.
+            </p>
+            <a href='#' className={[styles.main_btn3]}>
+              Придбати курс{" "}
+            </a>
+          </div>
+        </div>
+        <a className={[styles.main_btn4]} href='#'>
+          Придбати курс
+        </a>
       </div>
     </main>
   )
