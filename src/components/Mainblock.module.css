@@ -79,4 +79,10 @@
     font-size: 20px;
     text-align: center;
   }
+  .block_text {
+    margin-top: 12px;
+  }
+  .lesson_text {
+    height: 100%;
+  }
 }
