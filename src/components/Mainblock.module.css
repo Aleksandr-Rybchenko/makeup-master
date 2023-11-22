@@ -10,6 +10,7 @@
 .container_mainblock {
   margin: 0 auto;
   width: 1200px;
+  padding: 0 15px;
 }
 .main_block_title {
   font-size: 32px;
@@ -84,5 +85,31 @@
   }
   .lesson_text {
     height: 100%;
+    /* heit можно зафиксировать в адаптиве */
   }
+}
+/* lesson 2 */
+.lesson_all {
+  margin-top: 68px;
+}
+.lesson_number {
+  text-align: center;
+  font-family: Poiret One;
+  font-size: 32px;
+  font-weight: 400;
+  text-decoration-line: underline;
+}
+.lesson_title {
+  text-align: center;
+  margin-top: 32px;
+  font-size: 30px;
+}
+.lesson_subtitle {
+  text-align: center;
+  margin-top: 24px;
+}
+.lesson_video {
+  margin-top: 32px;
+}
+.lesson_slayder {
 }

@@ -29,6 +29,13 @@ const Mainblock = () => {
             </p>
           </div>
         </div>
+        <div className={[styles.lesson_all]}>
+          <h3 className={[styles.lesson_number]}>Урок 2</h3>
+          <h3 className={[styles.lesson_title]}>Голівудська хвиля</h3>
+          <p className={[styles.lesson_subtitle]}>(Легкі та м’які хвилі)</p>
+          <div className={[styles.lesson_video]}></div>
+          <div className={[styles.lesson_slayder]}>slayder</div>
+        </div>
       </div>
     </div>
   )
