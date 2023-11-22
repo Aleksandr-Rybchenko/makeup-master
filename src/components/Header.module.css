@@ -79,9 +79,11 @@ h1 {
     margin: 0;
     padding: 0;
   }
+
   header {
     width: 100%;
     text-align: center;
+    background: #1b1818;
     background-image: url("../img/ava-final-mobile.png");
     background-size: 100%;
     background-repeat: no-repeat;
