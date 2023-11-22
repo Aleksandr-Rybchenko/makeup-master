@@ -1,0 +1,82 @@
+.main_block {
+  width: 1440px;
+  background: linear-gradient(
+    110deg,
+    #cfc0ab 7.11%,
+    rgba(207, 192, 171, 0) 100%
+  );
+  margin: 0 auto;
+}
+.container_mainblock {
+  margin: 0 auto;
+  width: 1200px;
+}
+.main_block_title {
+  font-size: 32px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 64px;
+}
+.lesson {
+  margin-top: 32px;
+}
+.lesson_title_one {
+  text-align: center;
+  font-family: Poiret One;
+  font-size: 32px;
+  font-weight: 400;
+  text-decoration-line: underline;
+}
+.lesson_name {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 24px;
+}
+.about_lesson {
+  margin-top: 26px;
+  font-family: Poiret One;
+  font-size: 32px;
+  font-weight: 400;
+  text-decoration-line: underline;
+}
+.block_text {
+  margin-top: 24px;
+}
+.lesson_text {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 12px;
+  padding-left: 4px;
+  height: 51px;
+  font-family: Poiret One;
+  font-size: 24px;
+  font-weight: 400;
+  border-left: 4px solid #b8aa96;
+  max-width: 762px;
+}
+@media (min-width: 375px) and (max-width: 768px) {
+  .main_block {
+    width: 100%;
+  }
+  .container_mainblock {
+    width: 100%;
+    padding: 0 16px;
+  }
+  .main_block_title {
+    padding-top: 46px;
+    font-size: 24px;
+  }
+  .lesson {
+    margin-top: 24px;
+  }
+  .lesson_name {
+    font-size: 24px;
+    margin-top: 16px;
+  }
+  .about_lesson {
+    margin-top: 11px;
+    font-size: 20px;
+    text-align: center;
+  }
+}
