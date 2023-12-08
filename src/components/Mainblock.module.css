@@ -118,3 +118,81 @@
   gap: 24px;
   display: flex;
 }
+.about_lesson_slayder {
+  margin-top: 32px;
+  border-bottom: 3px solid black;
+  font-size: 32px;
+  max-width: 416px;
+  font-family: Poiret One;
+}
+.lesson_text_slayder {
+  font-family: Poiret One;
+  font-size: 22px;
+  border-left: 4px solid #b8aa96;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  padding-left: 4px;
+  margin-top: 14.5px;
+  max-width: 565px;
+}
+.lesson_text_slayder_mod {
+  font-family: Poiret One;
+  font-size: 22px;
+  border-left: 4px solid #b8aa96;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  padding-left: 4px;
+  margin-top: 24px;
+  max-width: 390px;
+}
+.lesson_text_slayder_mod2 {
+  font-family: Poiret One;
+  font-size: 22px;
+  border-left: 4px solid #b8aa96;
+
+  display: flex;
+  align-items: center;
+  padding-left: 4px;
+  margin-top: 24px;
+  max-width: 390px;
+}
+.slayder_block_text {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 9.5px;
+}
+.strelka_parant {
+  display: flex;
+  justify-content: end;
+  margin-top: 32px;
+}
+.strelka_svg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+.strelka {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 274px;
+}
+.strelka a {
+  cursor: pointer;
+  color: #1b1818;
+  font-size: 18px;
+  padding-bottom: 14px;
+}
+@media (min-width: 375px) and (max-width: 768px) {
+  .lesson_video {
+    margin-top: 18px;
+    max-width: 100%;
+  }
+  .lesson_img {
+    display: none;
+  }
+}
