@@ -1,4 +1,5 @@
 import styles from "./Mainblock.module.css"
+import Slider from "./Slider"
 import firstImg from "./../img/lesson_one/1.png"
 import secondImg from "./../img/lesson_one/2.png"
 import threetImg from "./../img/lesson_one/3.png"
@@ -53,11 +54,18 @@ const Mainblock = () => {
               allowfullscreen
             ></iframe>
           </div>
+          <div className={[styles.slayder]}>
+            <Slider />
+          </div>
+
           <div className={[styles.lesson_img]}>
             <img src={firstImg} />
             <img src={secondImg} />
             <img src={threetImg} />
           </div>
+          {/* slayder */}
+
+          {/* slayder */}
           <div className={[styles.lesson_slayder]}>{/* slayder */}</div>
           {/* text */}
           <p className={[styles.about_lesson_slayder]}>

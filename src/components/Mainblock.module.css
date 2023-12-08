@@ -187,6 +187,9 @@
   font-size: 18px;
   padding-bottom: 14px;
 }
+.slayder {
+  display: none;
+}
 @media (min-width: 375px) and (max-width: 768px) {
   .lesson_video {
     margin-top: 18px;
@@ -194,5 +197,10 @@
   }
   .lesson_img {
     display: none;
+  }
+  .slayder {
+    display: block;
+    margin-top: 8px;
+    max-height: 300px;
   }
 }
