@@ -1,4 +1,7 @@
 import styles from "./Mainblock.module.css"
+import firstImg from "./../img/lesson_one/1.png"
+import secondImg from "./../img/lesson_one/2.png"
+import threetImg from "./../img/lesson_one/3.png"
 const Mainblock = () => {
   return (
     <div className={[styles.main_block]}>
@@ -33,8 +36,22 @@ const Mainblock = () => {
           <h3 className={[styles.lesson_number]}>Урок 2</h3>
           <h3 className={[styles.lesson_title]}>Голівудська хвиля</h3>
           <p className={[styles.lesson_subtitle]}>(Легкі та м’які хвилі)</p>
-          <div className={[styles.lesson_video]}></div>
-          <div className={[styles.lesson_slayder]}>slayder</div>
+          <div className={[styles.lesson_video]}>
+            <iframe
+              width='1170'
+              height='650'
+              src='https://www.youtube.com/embed/tx68oyg6cqg?si=PN6JUXew6P15mQwP'
+              title='YouTube video player'
+              frameborder='0'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div className={[styles.lesson_img]}>
+            <img src={firstImg} />
+            <img src={secondImg} />
+            <img src={threetImg} />
+          </div>
         </div>
       </div>
     </div>

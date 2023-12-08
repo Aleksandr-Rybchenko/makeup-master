@@ -110,6 +110,11 @@
 }
 .lesson_video {
   margin-top: 32px;
+  display: flex;
+  justify-content: center;
 }
-.lesson_slayder {
+.lesson_img {
+  margin-top: 24px;
+  gap: 24px;
+  display: flex;
 }
