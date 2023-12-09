@@ -54,6 +54,17 @@ const Mainblock = () => {
               allowfullscreen
             ></iframe>
           </div>
+          <div className={[styles.lesson_video_mobile]}>
+            <iframe
+              width='100%'
+              height='400'
+              src='https://www.youtube.com/embed/tx68oyg6cqg?si=PN6JUXew6P15mQwP'
+              title='YouTube video player'
+              frameborder='0'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              allowfullscreen
+            ></iframe>
+          </div>
           <div className={[styles.slayder]}>
             <Slider />
           </div>
@@ -63,10 +74,7 @@ const Mainblock = () => {
             <img src={secondImg} />
             <img src={threetImg} />
           </div>
-          {/* slayder */}
 
-          {/* slayder */}
-          <div className={[styles.lesson_slayder]}>{/* slayder */}</div>
           {/* text */}
           <p className={[styles.about_lesson_slayder]}>
             На цьому уроці Ви навчитеся:
@@ -125,6 +133,17 @@ const Mainblock = () => {
             <iframe
               width='1170'
               height='650'
+              src='https://www.youtube.com/embed/_UQSoAdunIE?si=uK3bGUhcPWmE_H6_'
+              title='YouTube video player'
+              frameborder='0'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div className={[styles.lesson_video_mobile]}>
+            <iframe
+              width='100%'
+              height='400'
               src='https://www.youtube.com/embed/_UQSoAdunIE?si=uK3bGUhcPWmE_H6_'
               title='YouTube video player'
               frameborder='0'
@@ -198,6 +217,17 @@ const Mainblock = () => {
               allowfullscreen
             ></iframe>
           </div>
+          <div className={[styles.lesson_video_mobile]}>
+            <iframe
+              width='100%'
+              height='400'
+              src='https://www.youtube.com/embed/ACUlQ6CdFpk?si=8-k1veltObVqcyRy'
+              title='YouTube video player'
+              frameborder='0'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              allowfullscreen
+            ></iframe>
+          </div>
           <div className={[styles.lesson_img]}>
             <img src={imgLessonThree1} />
             <img src={imgLessonThree2} />
@@ -216,7 +246,7 @@ const Mainblock = () => {
               <p className={[styles.lesson_text_slayder]}>
                 Особливостям роботи на важкому волоссі
               </p>
-              <p className={[styles.lesson_text_slayder]}>
+              <p className={[styles.lesson_text_slayder_mod3]}>
                 Навчитеся робити максимально комерційні укладання, які підійдуть
                 у будь-якій ситуації в салонах та на зйомках
               </p>
