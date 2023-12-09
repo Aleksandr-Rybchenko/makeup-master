@@ -1,4 +1,5 @@
 import styles from "./Mainblock.module.css"
+import ImageSlider from "./ImageSlider"
 import Slider from "./Slider"
 import firstImg from "./../img/lesson_one/1.png"
 import secondImg from "./../img/lesson_one/2.png"
@@ -10,6 +11,10 @@ import imgLessonThree1 from "./../img/losseon_three/1.png"
 import imgLessonThree2 from "./../img/losseon_three/2.png"
 import imgLessonThree3 from "./../img/losseon_three/3.png"
 const Mainblock = () => {
+  const images1 = [firstImg, secondImg, threetImg]
+  const images2 = [imgLessonTwo1, imgLessonTwo2, imgLessonTwo3]
+  const images3 = [imgLessonThree1, imgLessonThree2, imgLessonThree3]
+
   return (
     <div className={[styles.main_block]}>
       <div className={[styles.container_mainblock]}>
@@ -151,6 +156,9 @@ const Mainblock = () => {
               allowfullscreen
             ></iframe>
           </div>
+          <div className={[styles.slayder]}>
+            <ImageSlider images={images2} />
+          </div>
           <div className={[styles.lesson_img]}>
             <img src={imgLessonTwo1} />
             <img src={imgLessonTwo2} />
@@ -228,12 +236,15 @@ const Mainblock = () => {
               allowfullscreen
             ></iframe>
           </div>
+          <div className={[styles.slayder]}>
+            <ImageSlider images={images3} />
+          </div>
           <div className={[styles.lesson_img]}>
             <img src={imgLessonThree1} />
             <img src={imgLessonThree2} />
             <img src={imgLessonThree3} />
           </div>
-          <div className={[styles.lesson_slayder]}>{/* slayder */}</div>
+
           {/* text */}
           <p className={[styles.about_lesson_slayder]}>
             На цьому уроці Ви навчитеся:
